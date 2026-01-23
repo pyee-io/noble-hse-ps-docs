@@ -1,0 +1,45 @@
+# PSa25 Standardization Report
+
+!!! note "General Information"
+    Generated: 1/22/2026, 9:30:40 AM
+
+## Assurance Activities Consistency
+**Inconsistencies Found:** 2 items
+
+#### Ventilation System - Hazardous Areas | **frequency:** 3M
+
+| Variation Type | Content / Diff | Rigs |
+|---|---|---|
+| 🔵 **Baseline** | **description:** Shut down ventilation in enclosed hazardous areas<br>- Mud pit room;<br>- Shaker house; and<br>- any other enclosed hazardous areas in line with the hazardous area plan.<br>Confirm that it initiates an alarm in a manned stations, when the pressure differential is less than {==50 Pa==}.<br><br>**pass_criteria:** Confirmed that loss of hazardous area ventilation leads to an alarm in a manned station. | Noble Mick O'Brien, Noble Regina Allen |
+| 🔴 **Variance** | **description:** Shut down ventilation in enclosed hazardous areas<br>- Mud pit room;<br>- Shaker house; and<br>- any other enclosed hazardous areas in line with the hazardous area plan.<br>Confirm that it initiates an alarm in a manned stations, when the pressure differential is less than {==50Pa==}.<br><br>**pass_criteria:** Confirmed that loss of hazardous area ventilation leads to an alarm in a manned station. | Noble Tom Prosser |
+
+---
+#### Ventilation System - Non hazardous Areas | **frequency:** 3M
+
+| Variation Type | Content / Diff | Rigs |
+|---|---|---|
+| 🔵 **Baseline** | **description:** Overpressure is maintained at:<br>- Driller's Cabin<br>- Other enclosed non-hazardous areas adjacent to hazardous areas as shown on Hazardous Area plan. <br>Confirm that an alarm is given at manned station upon loss of pressure differential for non-hazardous rooms adjacent to hazardous areas. This can be tested by shutting off the ventilation or by keeping doors open until the pressure is equalised.<br><br>**pass_criteria:** Confirmed that loss {==in==} differential pressure leads to an alarm in a manned station. | Noble Mick O'Brien, Noble Regina Allen |
+| 🔴 **Variance** | **description:** Overpressure is maintained at:<br>- Driller's Cabin<br>- Other enclosed non-hazardous areas adjacent to hazardous areas as shown on Hazardous Area plan. <br>Confirm that an alarm is given at manned station upon loss of pressure differential for non-hazardous rooms adjacent to hazardous areas. This can be tested by shutting off the ventilation or by keeping doors open until the pressure is equalised.<br><br>**pass_criteria:** Confirmed that loss {==of==} differential pressure leads to an alarm in a manned station. | Noble Tom Prosser |
+
+---
+
+## Technical Performance Requirements Existence
+**Inconsistencies Found:** 2 items
+
+#### Ventilation System - Galley
+
+| Variation Type | Content / Diff | Rigs |
+|---|---|---|
+| 🔵 **Baseline** | **requirement:** Upon activiation of water mist in the galley, the ICMS (Kongsberg) shall automatically shut down the air handling units and exhaust fan and close related dampers as per F&G Cause and Effects. | Noble Regina Allen |
+| ⚪ **Missing** | *(Item not present for these rigs)* | Noble Tom Prosser, Noble Mick O'Brien |
+
+---
+#### Ventilation System - Galley Areas protected by water mist
+
+| Variation Type | Content / Diff | Rigs |
+|---|---|---|
+| 🔵 **Baseline** | **requirement:** Upon activiation of water mist in the galley, the ICMS (Kongsberg) shall automatically shut down the relevant air handling units and exhaust fan and close related dampers as per F&G Cause and Effects. | Noble Tom Prosser, Noble Mick O'Brien |
+| ⚪ **Missing** | *(Item not present for these rigs)* | Noble Regina Allen |
+
+---
+
